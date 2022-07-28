@@ -1,0 +1,21 @@
+ActionLink - HTML link
+DisplayNameFor - HTML label
+DisplayFor - To display the result
+
+@Html.ValidationSummary - The ValidationSummary() extension method displays a summary of all validation errors on a web page as an unordered list element. It can also be used to display custom error messages.
+@Html.EditorFor: This control is bit smart. It renders HTML markup based on the datatype of the property. E.g. suppose there is a boolean property in model. To render this property in the view as a checkbox either we can use CheckBoxFor or EditorFor. Both will be generate the same markup.
+@Html.ValidationMessageFor() - is a strongly typed extension method. It displays a validation message if an error exists for the specified field in the ModelStateDictionary object.
+
+
+Model
+  |
+Controller
+  |
+ViewStartLayout
+  |
+View
+  |
+Common Layout
+
+
+Should import model in all view
