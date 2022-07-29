@@ -19,3 +19,5 @@ Common Layout
 
 
 Should import model in all view
+
+The Html.LabelFor helper displays the name of the field ("Title", "ReleaseDate", "Genre", or "Price"). The Html.EditorFor helper renders an HTML <input> element. The Html.ValidationMessageFor helper displays any validation messages associated with that property.
